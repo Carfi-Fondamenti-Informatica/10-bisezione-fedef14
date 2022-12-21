@@ -34,8 +34,8 @@ do {
 } while(err >= pow(M_E,-6));
 
 
-    int i = x * 1000;
-    double l = (float) i/1000;
+    int i = x * 10000;
+    double l = (float) i/10000;
     cout << l << endl;
    
    
