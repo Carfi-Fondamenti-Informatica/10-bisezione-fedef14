@@ -25,13 +25,13 @@ do {
     if (f(x) == 0) {
         break;
     }
-    if (f(x) > 0) {
-        a = x;
-    } else {
+    if (f(x) < 0) {
         b = x;
+    } else {
+        a = x;
     }
     err = abs((b-a)/2);
-} while(err >= pow(M_E,-6));
+} while(err >= 0.000001);
 
 
     int i = x * 10000;
